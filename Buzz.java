@@ -20,11 +20,4 @@ public class Buzz {
         }
         return num;
     }
-
-
-    public static void main(String[] args) {
-
-        fizzbuzz(30);
-
-    }
 }
