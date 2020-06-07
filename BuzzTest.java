@@ -21,6 +21,7 @@ public class BuzzTest {
         int result = Buzz.fizzbuzz(30);
         Assert.assertEquals(result,30,"FizzBuzz");
     }
+    @Test
 
     public void numTest() {
         int result = Buzz.fizzbuzz(23);
