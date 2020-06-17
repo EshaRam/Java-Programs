@@ -10,7 +10,7 @@ public class ReverseString {
 
             reverse = reverse + s.charAt(i);
         }
-       return reverse;
+       return reverse.toLowerCase();
     }
 
     public static void main (String [] args){

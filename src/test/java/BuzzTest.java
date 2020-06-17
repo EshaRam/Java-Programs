@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 public class BuzzTest {
 
-   /* @Test
+    @Test
 
     public void buzzTest() {
         String result =Buzz.fizzbuzz(25);
@@ -13,19 +13,24 @@ public class BuzzTest {
 
     public void fizzTest() {
         String result = Buzz.fizzbuzz(21);
-        Assert.assertEquals(result,21,"Fizz");
+        Assert.assertEquals(result,"Fizz");
     }
     @Test
 
     public void fizzBuzzTest() {
-        int result = Buzz.fizzbuzz(30);
-        Assert.assertEquals(result,30,"FizzBuzz");
+        String result = Buzz.fizzbuzz(30);
+        Assert.assertEquals(result,"FizzBuzz");
     }
     @Test
 
     public void numTest() {
-        int result = Buzz.fizzbuzz(23);
-        Assert.assertEquals(result,23);
-    }*/
+        String result = Buzz.fizzbuzz(23);
+        Assert.assertEquals(result,result);
+    }
+    @Test
+    public void zeroTest() {
+        String result = Buzz.fizzbuzz(0);
+        Assert.assertEquals(result,"FizzBuzz");
+    }
 
 }
